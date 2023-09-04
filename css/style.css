@@ -289,6 +289,10 @@ a{
    justify-content:center;
    align-items:center;
    border-radius:50%;
+   height: 112px;
+   background-color: #f4f4fd;
+   border-radius: 4px;
+   margin-bottom: 8px;
 }
 
 .our-plan-block:first-child{
