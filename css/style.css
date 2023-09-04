@@ -142,7 +142,18 @@ a{
 
 .navigation:hover, 
 .navigation:focus{
-   color:  #404bbf;
+   color: #404BBF;
+   position: absolute;
+   left: 0;
+   bottom: -1px;
+   content: "";
+   width: 100%;
+   height: 4px;
+   border-radius: 2px;
+   background-color: #404BBF;
+   transition: background-color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-hover{
