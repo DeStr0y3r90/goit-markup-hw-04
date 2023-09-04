@@ -363,6 +363,15 @@ a{
 
 }
 
+.social-icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+   text-decoration: none;
+   list-style-type: none;
+}
+
 
 /* Our Portfolio block */
 
