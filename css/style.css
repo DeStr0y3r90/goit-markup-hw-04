@@ -93,7 +93,11 @@ a{
    text-transform: uppercase;
    color: #4d5ae5;
    margin-right: 76px;
-
+   display: block;
+   position: relative;
+   transition: color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .web-logo{
@@ -134,12 +138,6 @@ a{
    text-decoration: none;
    list-style-type: none;
    padding: 24px 0 24px 0;
-   display: block;
-   position: relative;
-   transition: color;
-   transition-duration: 250ms;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .navigation:hover, 
@@ -205,6 +203,7 @@ a{
 
 .hero-div{
    background-color: #2E2F42;
+   
    font-size: 56px;
    line-height: 1.07;
    letter-spacing: 0.02em;
@@ -217,6 +216,7 @@ a{
    background-repeat: no-repeat;
    background-size: cover;
    flex-shrink: 0;
+   background-position: center;
 }
 
 .hero-title{
