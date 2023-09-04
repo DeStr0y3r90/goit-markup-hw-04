@@ -210,13 +210,13 @@ a{
    color: #FFFFFF;
    padding-top: 188px;
    padding-bottom: 188px;
-   background-image:linear-gradient(rgba(46, 47, 66, 0.07), rgba(46, 47, 66, 0.07)),
-   url(../images/bgpicture-min.jpg);
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bgpicture-min.jpg);
    max-width: 1440px;
+   background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    flex-shrink: 0;
-   background-position: center;
+   
 }
 
 .hero-title{
