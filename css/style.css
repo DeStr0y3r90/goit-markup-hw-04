@@ -137,7 +137,7 @@ a{
    font-size: 16px;
    font-weight: 500;
    line-height: 1.5;
-   letter-spacing: 0.32px;
+   letter-spacing: 0.02em;
    text-decoration: none;
    padding: 24px 0 24px 0;
    display: block;
@@ -541,4 +541,12 @@ a{
    letter-spacing: 0.02em;
    color: #434455;
    width: 264px;
+}
+
+.team-icons{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 24px;
+   height: 24px;
 }
