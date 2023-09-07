@@ -442,23 +442,49 @@ a{
 
 .goals-block{
    display: flex;
-   flex-wrap: wrap;
    column-gap: 24px;
-   list-style-type: none;
    row-gap: 48px;
-   
+   margin: 0;
+   padding: 0;
+   flex-wrap: wrap; 
 }
 
 .goals-list{
    width: calc((100% - 48px) / 3);
+   border: 1px solid var(--cornflower, #E7E9FC);
+   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .item-container{
+   position: relative;
+   overflow: hidden;
+}
+
+.container-paragraf {
    padding: 32px 16px;
    border: 1px solid #e7e9fc;
    border-top: none;
-   margin-bottom: 8px;
+}
+
+.paragraf-overflow{
+   color:#F4F4FD;
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   transform: translateY(100%);
+   background-color: #4D5AE5;
+   transition-property: transform;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   padding: 40px 32px;
 }
 
 /* Footer block */
@@ -551,10 +577,36 @@ a{
 }
 
 .p-text{
+   color: #F4F4FD;
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #434455;
-   width: 264px;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   transform: translateY(100%);
+   background-color: #4D5AE5;
+   transition-property: transform;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   padding: 40px 32px;
+}
+
+.deskr{
+color:#434455;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+padding: 0;
+margin: 0;
+width: 264px;
 }
 
 .team-icons{
