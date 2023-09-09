@@ -133,7 +133,7 @@ a{
 }
 
 .navigation{
-   color: #404BBF;
+   color: #2E2F42;
    font-size: 16px;
    font-weight: 500;
    line-height: 1.5;
@@ -150,17 +150,6 @@ a{
 .navigation:hover, 
 .navigation:focus{
    color: #404BBF;
-   position: absolute;
-   left: 0;
-   bottom: -1px;
-   content: "";
-   width: 100%;
-   height: 4px;
-   border-radius: 2px;
-   background-color: #404BBF;
-   transition: background-color;
-   transition-duration: 250ms;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-hover::after {
@@ -280,15 +269,6 @@ a{
    padding-bottom: 120px;
    width: 1440px;
 }
-/*
-.second-section-title{
-   font-family: Roboto;
-   font-weight: 500;
-   font-size: 36px;
-   letter-spacing: 0.02em;
-   line-height: 1.2;
-   color: #2e2f42;
-}*/
 
 .our-plan-block{
    display: flex;
