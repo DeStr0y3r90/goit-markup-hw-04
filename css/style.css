@@ -152,6 +152,10 @@ a{
    color: #404BBF;
 }
 
+.nav-hover{
+   color: #404bbf;
+}
+
 .nav-hover::after {
    color: #404BBF;
    position: absolute;
